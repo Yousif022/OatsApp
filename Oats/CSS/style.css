@@ -1,0 +1,148 @@
+/*base rules*/
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5 {
+    font-family: 'Montserrat',sans-serif;
+   
+}
+
+p{
+    font-family: 'Nunito',sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+
+/*Navigation*/
+nav.r-nav{
+    background: transparent;
+    padding: 20px 0;
+    transition: .5s all;
+}
+nav.navbar-brand{
+ 
+    font-size: 30px;
+    color: #fff;
+}
+
+nav.navbar-nav,li,a{
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: 'Nunito',sans-serif;
+}
+nav .navbar-nav li{
+    margin-left: 15px;
+}
+nav.r-nav.stickyadd{
+    background:rgb(11, 5, 39) !important;
+    padding: 15px 0;
+    box-shadow: 0 1px 8px 3px rgba(0,0,0,0,.05);
+    transition: .5s all ease-in-out;
+}
+
+
+
+nav.stickyadd .navbar-nav  .nav-link{
+    color: rgb(240, 230, 230) !important;
+}
+ header{
+     height: 100vh;
+     width: 100%;
+     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url('../Images/oats.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+.header-content{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-box{
+    max-width: 700px;
+    color: #fff;
+}
+.content-box h4{
+  font-size:  30px;
+}
+.content-box h1{
+    font-size:  52px;
+  }
+  .content-box a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 25px;
+  }
+  .content-box a:hover{
+background-color: #fff;
+color: #000 !important;
+transition: 0.5 all;
+  }
+  .about li a {
+      color: #000;
+      display: inline-block;
+      height: 42px;
+      width: 42px;
+      font-size: 20px;
+      border: 2px solid #d4d4d4;
+      border-radius: 50%; 
+      line-height: 40px;
+      transition: 0.5s all;
+      text-align: center;
+  }
+  .about li a:hover{
+      color: #EE8683;
+  }
+img{
+    height: 200px;
+}
+.r-p{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/*Services Section*/
+
+#txt{
+    color: #000 !important;
+}
+.bg-sec{
+   
+    background: #F8F9FA;
+}
+
+.card,.card-header{
+    background: #F8F9FA !important;
+}
+
+.card-header{
+    border:none !important;
+}
+
+.services-class .card-header i{
+    font-size: 50px;
+}
+
+.service-border{
+    height: 2px;
+    width: 40px;
+    margin: 15px auto;
+    background: #e65f78;
+}
+.ts-funfact{
+
+    background: #0651a7;
+
+
+}
+
+
